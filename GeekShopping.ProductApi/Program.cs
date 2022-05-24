@@ -14,7 +14,20 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<PgsqlContext>(options =>
+{
+    options.UseNpgsql(configuration.GetConnectionString("PgsqlConnectionString"), sqloption =>
+    {
+        sqloption.EnableRetryOnFailure(
+            10, TimeSpan.FromSeconds(5), null);
+    });
+});
 
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 
 var app = builder.Build();
