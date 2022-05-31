@@ -3,11 +3,12 @@
 
 using Duende.IdentityServer.Models;
 using Duende.IdentityServer.Services;
+using foo.Pages;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace foo.Pages.Ciba;
+namespace GeekShopping.IdentityServer.Pages.Ciba;
 
 [AllowAnonymous]
 [SecurityHeaders]

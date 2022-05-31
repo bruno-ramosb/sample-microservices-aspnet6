@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authentication;
 using System.Text;
 using System.Text.Json;
 
-namespace foo.Pages.Diagnostics;
+namespace GeekShopping.IdentityServer.Pages.Diagnostics;
 
 public class ViewModel
 {

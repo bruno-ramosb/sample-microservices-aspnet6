@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace foo.Pages.Device;
+namespace GeekShopping.IdentityServer.Pages.Device;
 
 [SecurityHeaders]
 [Authorize]

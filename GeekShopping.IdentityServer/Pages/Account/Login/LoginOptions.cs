@@ -1,4 +1,4 @@
-namespace foo.Pages.Login;
+namespace GeekShopping.IdentityServer.Pages.Account.Login;
 
 public class LoginOptions
 {

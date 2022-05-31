@@ -1,5 +1,4 @@
-
-namespace foo.Pages.Logout;
+namespace GeekShopping.IdentityServer.Pages.Account.Logout;
 
 public class LogoutOptions
 {

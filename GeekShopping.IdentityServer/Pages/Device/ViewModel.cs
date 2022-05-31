@@ -1,4 +1,4 @@
-namespace foo.Pages.Device;
+namespace GeekShopping.IdentityServer.Pages.Device;
 
 public class ViewModel
 {
