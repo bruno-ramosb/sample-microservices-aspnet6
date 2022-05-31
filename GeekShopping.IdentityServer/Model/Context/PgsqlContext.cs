@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace GeekShopping.IdentityServer.Models.Model.Context
+namespace GeekShopping.IdentityServer.Model.Context
 {
     public class PgsqlContext : IdentityDbContext<ApplicationUser>
     {

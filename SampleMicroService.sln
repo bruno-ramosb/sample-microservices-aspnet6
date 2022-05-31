@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.Web", "GeekSho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.ProductApi", "GeekShopping.ProductApi\GeekShopping.ProductApi.csproj", "{20238FED-69EE-4256-9FB0-E36EC6832B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{7141040D-ECAB-402A-9DEE-A47653F12DAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{7141040D-ECAB-402A-9DEE-A47653F12DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{541A5321-F422-4BE6-9AA8-68D00CEDA45C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BAF7A53B-B4D6-42F6-9F68-FB4A27BEBF8F} = {541A5321-F422-4BE6-9AA8-68D00CEDA45C}
+		{FB3D41DA-D8BD-4C5B-BE52-35B6D7C4EF81} = {541A5321-F422-4BE6-9AA8-68D00CEDA45C}
 		{7F2EBF83-CF48-4204-ABB5-6496DAF88E9A} = {BAF7A53B-B4D6-42F6-9F68-FB4A27BEBF8F}
 		{20238FED-69EE-4256-9FB0-E36EC6832B23} = {FB3D41DA-D8BD-4C5B-BE52-35B6D7C4EF81}
 		{7141040D-ECAB-402A-9DEE-A47653F12DAB} = {FB3D41DA-D8BD-4C5B-BE52-35B6D7C4EF81}
